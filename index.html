@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Html Tags</title>
+	<style>
+	body h2{
+		text-align: center;
+color: blue;
+	}
+	table{
+		width: 80%;
+        margin: 30px auto;
+        text-align: center;
+        font-size: 18px;
+        border-collapse: collapse;
+	}
+	th{
+		border: 2px solid green;
+	}
+	td{
+		border: 2px solid green;
+		width:1px;
+
+	}
+	tr{
+		font-size: 14px;
+	}
+	</style>
+</head>
+<body>
+	<!--heading-->
+	<h2>HTML SOME TAGS</h2>
+		<!--table-->
+	<table>
+		<tr>
+			<th>SI.</th>
+			<th>Tags</th>
+			<th>Description</th>
+			<th>Example</th>
+		</tr>
+		<tr>
+			<td>01.</td>
+			<td>p</td>
+			<td>paragraph</td>
+			<td><p>Something is wrong etc.</p></td>
+		</tr>
+		<tr>
+			<td>02.</td>
+			<td>a</td>
+			<td>define hyperlink</td>
+			<td> <a href="https://www.github.com">Visit Github.com!</a> </td>
+		</tr>
+		<tr>
+			<td>03.</td>
+			<td>link</td>
+			<td>Defines the relationship between a document and an external resource</td>
+			<td><link rel="stylesheet" type="text/css" href="styles.css"></td>
+		</tr>
+		<tr>
+			<td>04.</td>
+			<td>nav</td>
+			<td>Defines navigation links</td>
+			<td><a href="/html/">HTML</a></td>
+		</tr>
+		<tr>
+			<td>05.</td>
+			<td>ul</td>
+			<td>Defines an unordered list</td>
+			<td><ul>
+				<li>Laptop</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>06.</td>
+			<td>oi</td>
+			<td>Defines an ordered list</td>
+			<td> 
+			 <ol>
+				<li>Desktop</li>
+				<li>Table</li>
+			</ol> 
+		  </td>
+		</tr>
+		<tr>
+			<td>07.</td>
+			<td>img</td>
+			<td> 	Defines an image</td>
+			<td><img src="smiley.JPG" alt="Smiley face" width="42" height="42"></td>
+		</tr>
+		<tr>
+			<td>08.</td>
+			<td>area</td>
+			<td>Defines an area inside an image-map</td>
+			<td> <img src="smiley.JPG" width="145" height="126" alt="Smiley face"
+usemap="#planetmap">
+
+<map name="smileymap">
+  <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+  <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+  <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+</map> </td>
+		</tr>
+		<tr>
+			<td>09.</td>
+			<td>picture</td>
+			<td>Defines a container for multiple image resources</td>
+			<td> <picture>
+  <source media="(min-width: 150px)" srcset="sajek.jpg">
+  <source media="(min-width: 65px)" srcset="sajek.jpg">
+  <img src="sajek.jpg" alt="sajek" style="width:150px;">
+</picture> </td>
+		</tr>
+		<tr>
+			<td>10.</td>
+			<td>audio</td>
+			<td>Defines sound content</td>
+			<td> <audio controls>
+  <source src="17_SF_-_SV15_-_Norway_-_Adelen_-_Always_On_My_Mind_(mp3.pm).mp3" type="audio/ogg">
+  <source src="17_SF_-_SV15_-_Norway_-_Adelen_-_Always_On_My_Mind_(mp3.pm).mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio> </td>
+		</tr>
+		<tr>
+			<td>11.</td>
+			<td>p</td>
+			<td>paragrap tag</td>
+			<td><p>Something</p></td>
+		</tr>
+		<tr>
+			<td>12.</td>
+			<td>table</td>
+			<td>Defines a table</td>
+			<td> <table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table> </td>
+		</tr>
+		<tr>
+			<td>13.</td>
+			<td>p</td>
+			<td>paragrap tag</td>
+			<td><style>
+h1 {color:red;}
+p {color:blue;}
+</style>
+<h1>html</h1>
+<p>something</p>
+</td>
+		</tr>
+		<tr>
+			<td>14.</td>
+			<td>thead</td>
+			<td>Groups the body content in a table</td>
+			<td> <table>
+  <thead>
+  <tr>
+     <th>Month</th>
+     <th>Savings</th>
+  </tr>
+  </thead>
+  <tfoot>
+  <tr>
+      <td>Sum</td>
+      <td>$180</td>
+  </tr>
+  </tfoot>
+  <tbody>
+  <tr>
+     <td>January</td>
+     <td>$100</td>
+  </tr>
+  <tr>
+      <td>February</td>
+      <td>$80</td>
+  </tr>
+  </tbody>
+</table> </td>
+		</tr>
+		<tr>
+			<td>15.</td>
+			<td>colgroup</td>
+			<td>Specifies a group of one or more columns in a table for formatting</td>
+			<td> <table>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table> </td>
+		</tr>
+		<tr>
+			<td>16.</td>
+			<td>div</td>
+			<td>Defines a section in a document</td>
+			<td> <div style="color:#0000FF">
+  <h3>Page</h3>
+</div> </td>
+		</tr>
+		<tr>
+			<td>17.</td>
+			<td>span</td>
+			<td>Defines a section in a document</td>
+			<td><p>Lorem ipsum dolor sit amet <span style="color:blue;font-weight:bold">consectetur</span> sed do eiusmod tempor incididunt ut labore et dolore<span style="color:darkolivegreen;font-weight:bold">dark green</span>  aliqua</p></td>
+		</tr>
+		<tr>
+			<td>18.</td>
+			<td>main</td>
+			<td>Specifies the main content of a document</td>
+			<td><main>
+  <h1>Web Browsers</h1>
+  <p>Google Chrome, Firefox, and Internet Explorer are the most used browsers today.</p></td>
+		</tr>
+		<tr>
+			<td>19.</td>
+			<td>section</td>
+			<td>Defines a section in a document</td>
+			<td><section>
+  <h1>WWF</h1>
+  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section></td>
+		</tr>
+		<tr>
+			<td>20.</td>
+			<td>aside</td>
+			<td>Defines content aside from the page content</td>
+			<td><aside>
+  <h4>Epcot Center</h4>
+  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+</aside></td>
+		</tr>
+		<tr>
+			<td>21</td>
+			<td>article</td>
+			<td>Defines an article</td>
+			<td> <article>
+  <h1>Google Chrome</h1>
+  <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+</article> </td>
+		</tr>
+		<tr>
+			<td>22.</td>
+			<td>p</td>
+			<td>Defines additional details that the user can view or hide</td>
+			<td> <details>
+  <summary>Copyright 1999-2014.</summary>
+  <p> - by Refsnes Data. All Rights Reserved.</p>
+  <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+</details> </td>
+		</tr>
+		<tr>
+			<td>23.</td>
+			<td>data</td>
+			<td>Links the given content with a machine-readable translation</td>
+			<td>
+				<ul>
+                  <li><data value="21053">Cherry Tomato</data></li>
+                  <li><data value="21054">Beef Tomato</data></li>
+                  <li><data value="21055">Snack Tomato</data></li>
+              </ul>
+          </td>
+		</tr>
+		<tr>
+			<td>24.</td>
+			<td>meta</td>
+			<td>Describe metadata within an HTML document</td>
+			<td> <head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head> </td>
+		</tr>
+		<tr>
+			<td>25.</td>
+			<td>basefont</td>
+			<td>Specify a default text-color and font-size for text on page</td>
+			<td><basefont color="red" size="5">
+</head>
+
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</td>
+		</tr>
+		<tr>
+			<td>26.</td>
+			<td>script</td>
+			<td>Defines a client-side script</td>
+			<td> <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> </td>
+		</tr>
+		<tr>
+			<td>27.</td>
+			<td>noscript</td>
+			<td>Defines an alternate content for users that do not support client-side scripts</td>
+			<td> <script>
+document.write("Hello World!")
+</script>
+<noscript>Your browser does not support JavaScript!</noscript> </td>
+		</tr>
+		<tr>
+			<td>28.</td>
+			<td>applet</td>
+			<td>Defines an embedded applet</td>
+			<td> <applet code="Bubbles.class" width="350" height="350">
+Java applet that draws animated bubbles.
+</applet> </td>
+		</tr>
+		<tr>
+			<td>29.</td>
+			<td>embed</td>
+			<td>Defines a container for an external (non-HTML) application</td>
+			<td> <embed src="pic.swf"> </td>
+		</tr>
+		<tr>
+			<td>30.</td>
+			<td>object</td>
+			<td>Defines an embedded object</td>
+			<td> <object width="400" height="400" data="pic.swf"></object> </td>
+		</tr>
+		<tr>
+			<td>31.</td>
+			<td>br</td>
+			<td>Inserts a single line break</td>
+			<td><p>Lorem Ipsum has been the industry'sbr<br>standard dummy</p></td>
+		</tr>
+		<tr>
+			<td>32.</td>
+			<td>h1 to h6</td>
+			<td>Defines HTML headings</td>
+			<td> <h1>Ut enim ad minim veniam 1</h1>
+<h2>Ut enim ad minim veniam 2</h2>
+<h3>Ut enim ad minim veniam 3</h3>
+<h4>Ut enim ad minim veniam 4</h4>
+<h5>Ut enim ad minim veniam 5</h5>
+<h6>Ut enim ad minim veniam 6</h6> </td>
+		</tr>
+		<tr>
+			<td>33.</td>
+			<td>hr</td>
+			<td>Defines a thematic change in the content</td>
+			<td> <h1>Lorem</h1>
+<p>Lorem ipsum dolor sit amet.....</p>
+
+<hr>
+
+<h1>Lorem</h1>
+<p>Lorem ipsum dolor sit amet.....</p> </td>
+		</tr>
+		<tr>
+			<td>34.</td>
+			<td>(!--...--)</td>
+			<td>Defines a comment</td>
+			<td><!-- This is a comment -->
+<p>Duis aute irure dolor.</p>
+<!-- Comments are not displayed in the browser --></td>
+		</tr>
+		<tr>
+			<td>35.</td>
+			<td>title</td>
+			<td>Defines a title for the document</td>
+			<td><title>Duis aute irure dolor</title></td>
+		</tr>
+		<tr>
+			<td>36.</td>
+			<td>head</td>
+			<td>Defines information about the document</td>
+			<td><head>
+  <title>aute irure dolor</title>
+</head></td>
+		</tr>
+		<tr>
+			<td>37.</td>
+			<td>bdo</td>
+			<td>Overrides the current text direction</td>
+			<td> <bdo dir="rtl">
+Lorem ipsum dolor sit amet.
+</bdo> </td>
+		</tr>
+		<tr>
+			<td>38.</td>
+			<td>del</td>
+			<td>Defines text that has been deleted from a document</td>
+			<td> <p>Lorem ipsum dolor sit amet. <del>blue</del> <ins>red</ins>!</p> </td>
+		</tr>
+		<tr>
+			<td>39.</td>
+			<td>dfn</td>
+			<td>Represents the defining instance of a term</td>
+			<td> <p><dfn>Excepteur</dfn>sint occaecat cupidatat.</p></td>
+		</tr>
+		<tr>
+			<td>40</td>
+			<td>p</td>
+			<td>Defines emphasized text </td>
+			<td><em>Sint occaecat cupidatat</em></td>
+		</tr>
+		<tr>
+			<td>41.</td>
+			<td>font</td>
+			<td>Defines font, color, and size for text</td>
+			<td> <font size="3" color="red">sunt in culpa qui officia deserunt mollit </font>
+<font size="2" color="blue">sunt in culpa qui officia deserunt mollit </font>
+<font face="verdana" color="green">sunt in culpa qui officia deserunt mollit </font> </td>
+		</tr>
+		<tr>
+			<td>42.</td>
+			<td>ins</td>
+			<td>Defines a text that has been inserted into a document</td>
+			<td> <p>sunt in culpa qui <del>blue</del> <ins>red</ins>!</p> </td>
+		</tr>
+		<tr>
+			<td>43.</td>
+			<td>kbd</td>
+			<td>Defines keyboard input</td>
+			<td> <kbd>Sunt in culpa qui</kbd> </td>
+		</tr>
+		<tr>
+			<td>44.</td>
+			<td>mark</td>
+			<td>paragrap tag</td>
+			<td> <p>Duis aute irure dolor<mark>in reprehenderit</mark> in voluptate.</p></td>
+		</tr>
+		<tr>
+			<td>45.</td>
+			<td>meter</td>
+			<td>Defines a scalar measurement within a known range (a gauge)</td>
+			<td><meter value="2" min="0" max="10">2 out of 10</meter><br>
+<meter value="0.6">60%</meter></td>
+		</tr>
+		<tr>
+			<td>46.</td>
+			<td>progress</td>
+			<td>Represents the progress of a task</td>
+			<td><progress value="22" max="100"></progress></td>
+		</tr>
+		<tr>
+			<td>47.</td>
+			<td>q</td>
+			<td> 	Defines a short quotation</td>
+			<td> <p>Lorem ipsum dolor
+<q>sit amet, consectetur.</q>Ut enim ad minim veniam.</p> </td>
+		</tr>
+		<tr>
+			<td>48.</td>
+			<td>rp</td>
+			<td>Defines what to show in browsers that do not support ruby annotations</td>
+			<td> <ruby>
+漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+</ruby> </td>
+		</tr>
+		<tr>
+			<td>49.</td>
+			<td>samp</td>
+			<td>Defines sample output from a computer program</td>
+			<td><samp>Duis aute irure dolor in reprehenderit</samp></td>
+		</tr>
+		<tr>
+			<td>50.</td>
+			<td>sub</td>
+			<td>Defines subscripted text</td>
+			<td><p>Lorem ipsum dolor<sub>sit amet</sub>consectetur.</p></td>
+		</tr>
+		
+	</table>
+	  
+
+	
+</body>
+</html>
